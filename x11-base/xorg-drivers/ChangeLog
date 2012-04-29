@@ -1,0 +1,60 @@
+# ChangeLog for x11-base/xorg-drivers
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-base/xorg-drivers/ChangeLog,v 1.15 2009/12/15 19:23:30 ranger Exp $
+
+  15 Dec 2009; Brent Baude <ranger@gentoo.org> xorg-drivers-1.6.ebuild:
+  Marking xorg-drivers-1.6 ppc64 stable for bug 294958
+
+  15 Dec 2009; Raúl Porcel <armin76@gentoo.org> xorg-drivers-1.6.ebuild:
+  alpha/ia64/sh/sparc stable
+
+  13 Dec 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.6.ebuild,
+  xorg-drivers-1.7.ebuild:
+  clean up blockers
+
+  15 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.6.ebuild:
+  sync with overlay, imstt and vermilon are blocked, drop USE flags
+
+  15 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.7.ebuild:
+  sync with overlay, imstt and vermilon are blocked, drop USE flags
+
+  05 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.7.ebuild:
+  sync with overlay, use xf86-input-wacom instead of linuxwacom
+
+  02 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.7.ebuild:
+  block unmaintained input drivers: citron, elographics, fpit, hyperpen,
+  mutouch, penmount
+
+  01 Nov 2009; Mike Auty <ikelos@gentoo.org> xorg-drivers-1.7.ebuild:
+  Temporarily remove wacom support from xorg-drivers-1.7 until
+  xf86-input-wacom makes it to the main tree (see bug 290730).
+
+  26 Oct 2009; Jeroen Roovers <jer@gentoo.org> xorg-drivers-1.6.ebuild:
+  Stable for HPPA (bug #282290).
+
+  11 Oct 2009; nixnut <nixnut@gentoo.org> xorg-drivers-1.6.ebuild:
+  ppc stable #282290
+
+  09 Oct 2009; Markus Meier <maekke@gentoo.org> xorg-drivers-1.6.ebuild:
+  arm stable, bug #282290
+
+  05 Oct 2009; Christian Faulhammer <fauli@gentoo.org>
+  xorg-drivers-1.6.ebuild:
+  stable x86, bug 282290
+
+*xorg-drivers-1.7 (02 Oct 2009)
+
+  02 Oct 2009; Tomáš Chvátal <scarabeus@gentoo.org>
+  +xorg-drivers-1.7.ebuild:
+  Bump packages for xorg-server-1.7.
+
+  30 Sep 2009; Samuli Suominen <ssuominen@gentoo.org>
+  xorg-drivers-1.6.ebuild:
+  amd64 stable wrt #282290
+
+*xorg-drivers-1.6 (04 Sep 2009)
+
+  04 Sep 2009; Rémi Cardona <remi@gentoo.org> +xorg-drivers-1.6.ebuild,
+  +metadata.xml:
+  add xorg-drivers meta ebuild from the x11 overlay
+

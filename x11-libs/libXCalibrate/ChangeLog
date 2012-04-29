@@ -1,0 +1,76 @@
+# ChangeLog for x11-libs/libXCalibrate
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-libs/libXCalibrate/ChangeLog,v 1.17 2009/12/15 16:01:43 armin76 Exp $
+
+  15 Dec 2009; Raúl Porcel <armin76@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  alpha/ia64/m68k/s390/sh/sparc stable wrt #282290
+
+  26 Oct 2009; Jeroen Roovers <jer@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  Stable for HPPA (bug #282290).
+
+  11 Oct 2009; nixnut <nixnut@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  ppc stable #282290
+
+  05 Oct 2009; Christian Faulhammer <fauli@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  x86 stable, bug 282290
+
+  30 Sep 2009; Samuli Suominen <ssuominen@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  amd64 stable wrt #282290
+
+  28 Jun 2009; Raúl Porcel <armin76@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  arm stable
+
+  23 Jun 2009; Tobias Klausmann <klausman@gentoo.org>
+  libXCalibrate-0.1_pre20081207-r1.ebuild:
+  Stable on alpha for xorg-server-1.5/xorg-x11-7.4
+
+  15 May 2009; Raúl Porcel <armin76@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  arm/m68k/s390 stable
+
+*libXCalibrate-0.1_pre20081207-r1 (12 May 2009)
+
+  12 May 2009; Rémi Cardona <remi@gentoo.org>
+  +libXCalibrate-0.1_pre20081207-r1.ebuild:
+  add missing deps, small clean up (fixes bug #269380)
+
+  16 Apr 2009; Jeroen Roovers <jer@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  Stable for HPPA (bug #251832).
+
+  15 Apr 2009; Raúl Porcel <armin76@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  ia64/sh stable wrt #251832
+
+  06 Apr 2009; Friedrich Oslage <bluebird@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  Stable on sparc, bug #251832
+
+  05 Apr 2009; Markus Meier <maekke@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  x86 stable, bug #251832
+
+  05 Apr 2009; Olivier Crête <tester@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  Stable on amd64, bug #251832
+
+  03 Apr 2009; Brent Baude <ranger@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  Marking libXCalibrate-0.1_pre20081207 ppc64 stable for bug 251832
+
+  03 Apr 2009; Brent Baude <ranger@gentoo.org>
+  libXCalibrate-0.1_pre20081207.ebuild:
+  Marking libXCalibrate-0.1_pre20081207 ppc stable for bug 251832
+
+*libXCalibrate-0.1_pre20081207 (15 Mar 2009)
+
+  15 Mar 2009; <solar@gentoo.org> +metadata.xml,
+  +libXCalibrate-0.1_pre20081207.ebuild:
+  - initial commit of libXCalibrate from snapshot
+

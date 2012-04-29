@@ -1,0 +1,15 @@
+D/x11-base////
+D/x11-proto////
+D/x11-libs////
+D/x11-apps////
+/header.txt/1.15/Thu Jan  1 01:30:12 2009/-ko/D2009.12.31.23.00.00
+/skel.ChangeLog/1.20/Thu Jan  1 01:21:22 2009/-ko/D2009.12.31.23.00.00
+/skel.ebuild/1.52/Mon Mar 23 18:41:17 2009/-ko/D2009.12.31.23.00.00
+/skel.metadata.xml/1.18/Mon Jul 28 19:27:05 2008//D2009.12.31.23.00.00
+D/app-accessibility////
+D/app-admin////
+D/app-antivirus////
+D/app-arch////
+D/app-backup////
+D/x11-misc////
+D/gentoo-x86////
