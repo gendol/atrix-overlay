@@ -1,0 +1,12 @@
+diff -ruN libreoffice-core-3.5.3.2-orig/set_soenv.in libreoffice-core-3.5.3.2/set_soenv.in
+--- libreoffice-core-3.5.3.2-orig/set_soenv.in	2012-04-24 16:08:03.000000000 +0200
++++ libreoffice-core-3.5.3.2/set_soenv.in	2012-05-05 16:04:08.815277294 +0200
+@@ -559,7 +559,7 @@
+       $JRETOOLKITDIR  = $JAVA_HOME.$ds."jre".$ds."lib".$ds."alpha".$ds."server";
+       $JRETHREADDIR   = $JAVA_HOME.$ds."jre".$ds."lib".$ds."alpha".$ds."native_threads";
+    }
+-   elsif ($platform =~ m/^arm.*?l-/)
++   elsif ($platform =~ m/^arm.*?-/)
+    {  print "Setting Linux ARM specific values... ";
+       $oldoutfile     = "LinuxARMEnv.Set.sh";
+       $CPU            = "R";
