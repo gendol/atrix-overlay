@@ -1,0 +1,77 @@
+# This is packages.keywords from atrix-overlay
+
+# unlock newer gcc for better armv7a support
+=sys-devel/gcc-4.6*		**
+=sys-devel/gcc-4.6*		~arm
+
+# unmask newest - light-weight web browser
+www-client/midori
+
+# unlock architecture - light-weight pdf viewer
+app-text/epdfview		**
+
+# unlock architecture - x11 terminal
+x11-terms/rxvt-unicode		**
+
+# unlock architecture - light-weight image viewer
+media-gfx/ristretto		**
+
+# unlock architecture - claws, a light-weight mail client
+mail-client/claws-mail		**
+net-libs/libetpan		**
+
+# unlock architecture - audio player
+media-sound/audacious		**
+media-plugins/audacious-plugins	**
+
+# unlock gnumeric - light-weight spreadsheet program
+=app-office/gnumeric-1*		**
+=x11-libs/goffice-0*		**
+
+# unlock leafpad - a simple text editor
+=app-editors/leafpad-0*		**
+
+# unlock newest version of firefox and dependencies
+www-client/firefox		**
+dev-libs/nss			~arm
+dev-libs/nspr			~arm
+
+# unlock newest version of firefox and dependencies
+mail-client/thunderbird		**
+=media-libs/libvpx-1*		~arm
+
+# unlock older openssl for proprietary moto software
+=dev-libs/openssl-0.9*
+
+# unlock older libpng for proprietary moto software
+=media-libs/libpng-1.2*
+
+# unlock my favourite gtk theme
+x11-themes/gtk-engines-nodoka	**
+
+# disk speed tester
+app-benchmarks/bonnie++		**
+
+# unlock libreoffice and (lots of) dependencies
+=app-office/libreoffice-3.5.3.2		**
+=dev-cpp/libcmis-0.1*			**
+=sci-libs/ufconfig-3.7*			~arm
+=app-office/libreoffice-l10n-3.5*	**
+=media-fonts/liberation-fonts-1*	**
+=media-libs/libvisio-0*			**
+=dev-util/mdds-0.5*			**
+virtual/ooo				**
+=sys-libs/db-4.8*			~arm
+=app-text/libwpg-0.2*			**
+=sci-mathematics/lpsolve-5.5*		**
+=app-text/libwpd-0.9*			~arm
+=sci-libs/colamd-2*			**
+=media-gfx/graphite2-1*			**
+=app-text/libexttextcat-3*		~arm
+=dev-cpp/clucene-2*			~arm
+=app-text/mythes-1*			**
+=dev-libs/hyphen-2*			**
+=media-libs/libcdr-0*			**
+=media-fonts/libertine-ttf-5*		**
+=app-text/libwps-0*			**
+=media-libs/sampleicc-1*		**

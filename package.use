@@ -1,0 +1,80 @@
+# required by system
+sys-fs/udev		extras
+sys-fs/lvm2		nolvmstatic -static
+
+# required when emerging xfce4
+xfce-base/thunar	dbus -udev
+gnome-base/gvfs		gdu
+dev-libs/libxml2	python
+
+# settings for vnc server
+net-misc/tigervnc	server -xorgmodule
+
+# needed to fetch the atrix-overlay
+app-portage/layman	git subversion
+
+# reduces size of subversion install and required by git
+dev-vcs/subversion	-dso perl
+
+# remove a lot of old terminfo
+sys-libs/ncurses	minimal
+
+# more modules for the thumbnailer of thunar
+xfce-extra/tumbler	ffmpeg pdf
+media-video/ffmpegthumbnailer	jpeg png
+
+# compilation settings for firefox
+www-client/firefox	custom-cflags custom-optimization system-sqlite alsa webm
+dev-db/sqlite		secure-delete unlock-notify
+media-libs/libpng	apng
+
+# compilation settings for thunderbird
+mail-client/thunderbird	custom-cflags custom-optimization system-sqlite webm
+app-crypt/pinentry	gtk
+
+# significantly smaller gcc install
+sys-devel/gcc		-fortran
+
+# spell checking in midori browser
+net-libs/webkit-gtk	spell
+
+# spell checking in claws-mail
+mail-client/claws-mail	spell
+
+# include thunar file manager
+xfce-base/xfdesktop	thunar
+
+# required by evince
+app-text/poppler	cairo
+
+# my favorite - save space and add nice features
+app-editors/emacs	gzip-el toolkit-scroll-bars
+
+# enable scripting in gnumeric
+app-office/gnumeric	perl
+
+
+
+### Standard USE flags used in many binary packages
+
+# for binary distribution
+*/*			bindist
+
+# alsa sound is used and piped to the Android sound system
+*/*			alsa
+
+# required for functioning login to xfce4
+*/*			consolekit policykit
+
+# never install static library to save space
+*/*			-static-libs
+
+# enable usual image libraries in many packages
+*/*			png jpeg jpeg2k tiff
+
+# enable usual audio and video libraries in many packages
+*/*			mp3 xvid
+
+# yes, we have X11 and a functioning window manager
+*/*			X dbus libnotify
+
