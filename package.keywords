@@ -40,6 +40,10 @@ dev-libs/nspr			~arm
 mail-client/thunderbird		**
 =media-libs/libvpx-1*		~arm
 
+# unlock abiword
+=app-office/abiword-2*		**
+=app-text/wv-1*			~arm
+
 # unlock older openssl for proprietary moto software
 =dev-libs/openssl-0.9*
 

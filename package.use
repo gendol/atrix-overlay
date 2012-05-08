@@ -41,6 +41,9 @@ net-libs/webkit-gtk	spell
 # spell checking in claws-mail
 mail-client/claws-mail	spell
 
+# spell checking for gedit
+app-editors/gedit	spell
+
 # include thunar file manager
 xfce-base/xfdesktop	thunar
 
@@ -53,6 +56,8 @@ app-editors/emacs	gzip-el toolkit-scroll-bars
 # enable scripting in gnumeric
 app-office/gnumeric	perl
 
+# add writing tools for abiword
+app-office/abiword	spell
 
 
 ### Standard USE flags used in many binary packages

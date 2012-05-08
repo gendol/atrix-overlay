@@ -1,0 +1,3 @@
+# This is packages.unmask from atrix-overlay
+
+=sys-devel/gcc-4.6*
