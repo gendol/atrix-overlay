@@ -59,6 +59,11 @@ app-office/gnumeric	perl
 # add writing tools for abiword
 app-office/abiword	spell
 
+# disable gstreamer (which does audio output)
+net-im/pidgin		-gstreamer spell
+
+# more file formats for gimp
+media-gfx/gimp		exif pdf svg xpm
 
 ### Standard USE flags used in many binary packages
 
