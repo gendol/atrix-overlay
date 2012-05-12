@@ -1,0 +1,22 @@
+>=app-arch/rpm2targz-9.0.0.3g =sys-devel/automake-1.9* >=sys-devel/autoconf-2.68 sys-devel/libtool
+>=x11-libs/libdrm-2.3
+0
+http://adamwill.fedorapeople.org/poulsbo/src/libdrm-poulsbo-2.3.0-9.fc11.src.rpm
+
+http://www.happyassassin.net/2009/05/13/native-poulsbo-gma-500-graphics-driver-for-fedora-10/
+GPL-2
+libdrm for the intel gma500 (poulsbo)
+~x86
+autotools eutils libtool multilib rpm toolchain-funcs user
+
+
+
+
+2
+
+configure install prepare unpack
+
+
+
+
+

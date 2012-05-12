@@ -1,0 +1,22 @@
+virtual/opengl virtual/glu !media-libs/glut || ( >=sys-devel/automake-1.11.1 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+virtual/opengl virtual/glu !media-libs/glut
+0
+mirror://sourceforge/freeglut/freeglut-2.4.0.tar.gz
+
+http://freeglut.sourceforge.net/
+MIT
+A completely OpenSourced alternative to the OpenGL Utility Toolkit (GLUT) library
+~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd
+autotools eutils flag-o-matic libtool multilib toolchain-funcs user
+
+
+
+
+
+
+compile install setup unpack
+
+
+
+
+
