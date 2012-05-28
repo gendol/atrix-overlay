@@ -88,3 +88,47 @@ net-im/pidgin			~arm
 =media-libs/babl-0.1*		**
 =media-libs/gegl-0.2*		**
 
+# unlock rdesktop to remote control windows terminal servers
+net-misc/rdesktop		**
+net-misc/grdesktop		**
+
+# unlock icedtea:7 and dependencies
+=dev-java/icedtea-7*		**
+=dev-java/icedtea-web-1.2*	**
+=dev-java/javatoolkit-0.3*	**
+=dev-java/ant-nodeps-1*		**
+=dev-java/ant-core-1*		**
+=virtual/jdk-1.7*		**
+=virtual/jre-1.7*		**
+dev-java/java-config		**
+
+# unlock icedtea:6 and dependencies
+=dev-java/icedtea-6*		**
+dev-java/ant-eclipse-ecj	**
+dev-java/eclipse-ecj		**
+app-admin/eselect-ecj		**
+=virtual/jre-1.6*		**
+=virtual/jdk-1.6*		**
+
+# unlock gcj-jdk which is only required to compile icedtea
+dev-java/ecj-gcj		**
+dev-java/gcj-jdk		**
+=virtual/jdk-1.5*		**
+
+# unlock avant-window-navigator
+gnome-extra/avant-window-navigator	**
+x11-libs/libdesktop-agnostic		**
+
+# unlock avant-window-navigator-extras and dependencies
+gnome-extra/avant-window-navigator-extras	**
+dev-python/python-dateutil			**
+dev-python/vobject				**
+dev-python/six					**
+dev-python/feedparser				~arm
+
+# unlock chromium and dependencies
+=dev-lang/v8-3*			**
+=dev-libs/icu-49*		~arm
+=dev-python/ply-3*		**
+dev-lang/yasm			**
+

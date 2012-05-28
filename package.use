@@ -65,6 +65,17 @@ net-im/pidgin		-gstreamer spell
 # more file formats for gimp
 media-gfx/gimp		exif pdf svg xpm
 
+# enable webkit which is used in midori anyhow
+gnome-extra/avant-window-navigator-extras	webkit
+
+# don't include the java sdk source files
+dev-java/icedtea	-source -jbootstrap
+
+
+#required by www-client/chromium-19.0.1084.46, required by www-client/chromium (argument)
+dev-libs/libxml2	icu
+
+
 ### Standard USE flags used in many binary packages
 
 # for binary distribution

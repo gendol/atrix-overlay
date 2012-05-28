@@ -32,7 +32,7 @@ fi
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd"
 
 IUSE_VIDEO_CARDS="${IUSE_VIDEO_CARDS_UNSTABLE}
 	video_cards_intel
@@ -54,13 +54,13 @@ IUSE="${IUSE_VIDEO_CARDS}
 
 # keep correct libdrm and dri2proto dep
 # keep blocks in rdepend for binpkg
-RDEPEND="!<x11-base/xorg-server-1.7
+RDEPEND="!<x11-base/xorg-server-1.6
 	!<=x11-proto/xf86driproto-2.0.3
 	>=app-admin/eselect-opengl-1.1.1-r2
 	dev-libs/expat
 	>=x11-libs/libdrm-2.4.17
 	x11-libs/libICE
-	x11-libs/libX11[xcb?]
+	x11-libs/libX11
 	x11-libs/libXdamage
 	x11-libs/libXext
 	x11-libs/libXi
