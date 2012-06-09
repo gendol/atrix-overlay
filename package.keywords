@@ -14,7 +14,7 @@ app-text/epdfview		**
 x11-terms/rxvt-unicode		**
 
 # unlock architecture - light-weight image viewer
-media-gfx/ristretto		**
+media-gfx/gqview		**
 
 # unlock architecture - claws, a light-weight mail client
 mail-client/claws-mail		**
@@ -131,4 +131,3 @@ dev-python/feedparser				~arm
 =dev-libs/icu-49*		~arm
 =dev-python/ply-3*		**
 dev-lang/yasm			**
-

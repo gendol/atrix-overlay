@@ -1,5 +1,5 @@
 # required by system
-sys-fs/udev		extras
+sys-fs/udev		gudev hwdb extras
 sys-fs/lvm2		nolvmstatic -static
 
 # required when emerging xfce4
@@ -63,7 +63,7 @@ app-office/abiword	spell
 net-im/pidgin		-gstreamer spell
 
 # more file formats for gimp
-media-gfx/gimp		exif pdf svg xpm
+media-gfx/gimp		exif pdf xpm
 
 # enable webkit which is used in midori anyhow
 gnome-extra/avant-window-navigator-extras	webkit
