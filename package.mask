@@ -40,4 +40,8 @@
 # compile errors:
 
 =media-libs/libvpx-1.1.0
-#=net-misc/tigervnc-1.1.0-r4
+>=net-misc/tigervnc-1.1.0-r4
+
+# merge errors:
+
+>sys-apps/baselayout-2.0.3
