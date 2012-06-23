@@ -75,6 +75,8 @@ dev-java/icedtea	-source -jbootstrap
 #required by www-client/chromium-19.0.1084.46, required by www-client/chromium (argument)
 dev-libs/libxml2	icu
 
+#required by media-libs/sk1libs, required by media-gfx/uniconvertor, required by media-gfx/inkscape
+media-libs/lcms		python
 
 ### Standard USE flags used in many binary packages
 

@@ -21,8 +21,8 @@ mail-client/claws-mail		**
 net-libs/libetpan		**
 
 # unlock architecture - audio player
-media-sound/audacious		**
-media-plugins/audacious-plugins	**
+=media-sound/audacious-3.2*		**
+=media-plugins/audacious-plugins-3.2*	**
 
 # unlock gnumeric - light-weight spreadsheet program
 =app-office/gnumeric-1*		**
@@ -131,3 +131,11 @@ dev-python/feedparser				~arm
 =dev-libs/icu-49*		~arm
 =dev-python/ply-3*		**
 dev-lang/yasm			**
+
+# unlock inkscape
+=media-gfx/inkscape-0.48*	**
+dev-libs/boehm-gc		~arm
+=media-gfx/uniconvertor-1.1*	**
+dev-python/beautifulsoup	~arm
+dev-python/lxml			~arm
+=media-libs/sk1libs-0.9*	**
