@@ -139,3 +139,12 @@ dev-libs/boehm-gc		~arm
 dev-python/beautifulsoup	~arm
 dev-python/lxml			~arm
 =media-libs/sk1libs-0.9*	**
+
+# unlock sshfs
+sys-fs/sshfs-fuse		~arm
+
+# unlock some latex packages
+dev-tex/biblatex		**
+
+# unlock gnuplot
+sci-visualization/gnuplot

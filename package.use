@@ -71,6 +71,8 @@ gnome-extra/avant-window-navigator-extras	webkit
 # don't include the java sdk source files
 dev-java/icedtea	-source -jbootstrap
 
+# enable pdf output
+sci-visualization/gnuplot	cairo
 
 #required by www-client/chromium-19.0.1084.46, required by www-client/chromium (argument)
 dev-libs/libxml2	icu
