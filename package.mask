@@ -27,7 +27,7 @@
 >=x11-proto/xf86vidmodeproto-2.3
 >=x11-proto/xineramaproto-1.2
 
->=x11-misc/xkeyboard-config-2.0
+#>=x11-misc/xkeyboard-config-2.0
 >=media-libs/mesa-7.7
 #>=x11-libs/libXfixes-5.0
 
