@@ -68,6 +68,9 @@ media-gfx/gimp		exif pdf xpm
 # enable webkit which is used in midori anyhow
 gnome-extra/avant-window-navigator-extras	webkit
 
+# enable xcb for awesome window manager
+x11-libs/cairo		xcb
+
 # don't include the java sdk source files
 dev-java/icedtea	-source -jbootstrap
 

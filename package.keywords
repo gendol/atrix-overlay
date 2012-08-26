@@ -7,9 +7,6 @@
 # unmask newest - light-weight web browser
 www-client/midori
 
-# unlock architecture - light-weight pdf viewer
-app-text/epdfview		**
-
 # unlock architecture - x11 terminal
 x11-terms/rxvt-unicode		**
 
@@ -125,6 +122,11 @@ dev-python/python-dateutil			**
 dev-python/vobject				**
 dev-python/six					**
 dev-python/feedparser				~arm
+
+# unlock awesome window manager and plugins
+x11-wm/awesome			~arm
+x11-plugins/vicious		~arm
+dev-libs/libxdg-basedir		~arm
 
 # unlock chromium and dependencies
 =dev-lang/v8-3*			**
